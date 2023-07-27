@@ -1,22 +1,15 @@
 <div class="wrapper fadeInDown zero-raduis">
 	<div id="formContent">
-		<!-- Icon -->
 		<div class="">
 			<h2 class="my-5">Sign In</h2>
 		</div>
-
-		<!-- Login Form -->
 		<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
 			<input formControlName="email" type="email" id="email" class="fadeIn second zero-raduis" name="email" placeholder="name@example.com">
 			<input formControlName="password" type="password" id="password" class="fadeIn third zero-raduis" name="login" placeholder="password">
-			
-			<!-- <input type="submit"   routerLinkActive="router-link-active"  (click)="login()" class="fadeIn fourth zero-raduis" value="Giriş Yap"> -->
-			<!-- <button type="submit" class="btn btn-success">Register</button> -->
 			<input routerLink="/register" type="button" class="fadeIn fourth zero-raduis pc" value="Sinin">
             <div class="ask-register">
                 First time here? <a [routerLink]="['/register']">Register</a>
               </div>
 		</form>
-
 	</div>
 </div>
