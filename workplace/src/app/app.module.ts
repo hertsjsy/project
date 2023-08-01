@@ -10,6 +10,7 @@ import { RegisterComponent } from './components/auth/register/register.component
 import { ContainerComponent } from './components/container/container.component';
 import { NavComponent } from './components/nav/nav.component';
 import { HeaderComponent } from './components/header/header.component';
+import { NotificattionComponent } from './components/notificattion/notificattion.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HeaderComponent } from './components/header/header.component';
     RegisterComponent,
     ContainerComponent,
     NavComponent,
-    HeaderComponent
+    HeaderComponent,
+    NotificattionComponent
   ],
   imports: [
     BrowserModule,
