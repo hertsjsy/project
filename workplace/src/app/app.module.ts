@@ -11,6 +11,7 @@ import { ContainerComponent } from './components/container/container.component';
 import { NavComponent } from './components/nav/nav.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NotificattionComponent } from './components/notificattion/notificattion.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NotificattionComponent } from './components/notificattion/notificattion
     ContainerComponent,
     NavComponent,
     HeaderComponent,
-    NotificattionComponent
+    NotificattionComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

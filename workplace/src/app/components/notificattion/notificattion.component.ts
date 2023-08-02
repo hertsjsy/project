@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-notificattion',
-  template: `<div>
+  template: `<div [hidden]="displayNotification">
               <p>This Uses Cookies provide a better user experience
 
     </p>
@@ -10,5 +10,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./notificattion.component.css']
 })
 export class NotificattionComponent {
+
+  displayNotification: boolean = false;
 
 }

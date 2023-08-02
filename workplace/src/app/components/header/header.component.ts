@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+
+  footer: string ="Your One stop shop for everything"
+  sourse: string ="/assets/images.jpg"
+
 }
