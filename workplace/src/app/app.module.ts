@@ -12,7 +12,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NotificattionComponent } from './components/notificattion/notificattion.component';
 import { SearchComponent } from './components/search/search.component';
-
+import { ProductsComponent } from './components/products/products.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +22,8 @@ import { SearchComponent } from './components/search/search.component';
     NavComponent,
     HeaderComponent,
     NotificattionComponent,
-    SearchComponent
+    SearchComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
