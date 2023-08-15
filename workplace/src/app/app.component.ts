@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'workplace';
+
+  inputText: string ="";
+destory: boolean = true;
+  OnSubmit(input: HTMLInputElement){
+
+    this.inputText = input.value
+
+  }
+
+  DestoryComponent(){
+    this.destory = false
+  }
 }

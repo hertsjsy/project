@@ -7,3 +7,9 @@
 .wrapper{
     background-color: #fca709;
 }
+
+.container{
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5px 10px;
+}

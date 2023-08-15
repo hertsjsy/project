@@ -1,0 +1,13 @@
+.hook{
+    border: 1px solid green;
+    text-align: center;
+    background-color: azure;
+    padding: 10px 20px;
+    margin: 10px;
+    
+
+}
+p{
+    color: rgb(107, 118, 107);
+    font-size: 20px;
+}

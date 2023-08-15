@@ -13,6 +13,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { NotificattionComponent } from './components/notificattion/notificattion.component';
 import { SearchComponent } from './components/search/search.component';
 import { ProductsComponent } from './components/products/products.component';
+import { HooksComponent } from './components/hooks/hooks.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,8 @@ import { ProductsComponent } from './components/products/products.component';
     HeaderComponent,
     NotificattionComponent,
     SearchComponent,
-    ProductsComponent
+    ProductsComponent,
+    HooksComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,13 @@
 <div class="wrapper">
 <router-outlet></router-outlet>
 </div>
+<div class="container">
+    <input type="text" #input>
+    <button (click)="OnSubmit(input)">submit</button>
 
+    <app-hooks [value]="inputText" *ngIf="destory">
+        <h4>This is LifecycleHooks{{inputText}}</h4>
+    </app-hooks>
+<br><br>
+<button (click)="DestoryComponent()">Destroy</button>
+</div>
