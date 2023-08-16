@@ -14,6 +14,8 @@ import { NotificattionComponent } from './components/notificattion/notificattion
 import { SearchComponent } from './components/search/search.component';
 import { ProductsComponent } from './components/products/products.component';
 import { HooksComponent } from './components/hooks/hooks.component';
+import { JavascriptComponent } from './components/javascript/javascript.component';
+import { AngularComponent } from './components/angular/angular.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +27,9 @@ import { HooksComponent } from './components/hooks/hooks.component';
     NotificattionComponent,
     SearchComponent,
     ProductsComponent,
-    HooksComponent
+    HooksComponent,
+    JavascriptComponent,
+    AngularComponent
   ],
   imports: [
     BrowserModule,
