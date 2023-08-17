@@ -9,11 +9,12 @@ import { EnrollService } from 'src/app/services/enroll.service';
 export class JavascriptComponent {
 
   title = "Javascript";
+constructor(private enrollService:EnrollService){
 
+}
 
   OnEnroll(){
-    const enrollService = new EnrollService();
-    enrollService.OnEnrolledClicked(this.title);
+   this. enrollService.OnEnrolledClicked(this.title);
   }
 
 
