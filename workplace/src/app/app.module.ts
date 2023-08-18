@@ -16,6 +16,9 @@ import { ProductsComponent } from './components/products/products.component';
 import { HooksComponent } from './components/hooks/hooks.component';
 import { JavascriptComponent } from './components/javascript/javascript.component';
 import { AngularComponent } from './components/angular/angular.component';
+import { EnrollService } from './services/enroll.service';
+import { AddUserComponent } from './add-user/add-user.component';
+import { LoggerService } from './services/logger.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +32,8 @@ import { AngularComponent } from './components/angular/angular.component';
     ProductsComponent,
     HooksComponent,
     JavascriptComponent,
-    AngularComponent
+    AngularComponent,
+    AddUserComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +42,7 @@ import { AngularComponent } from './components/angular/angular.component';
     ReactiveFormsModule,
     MatSlideToggleModule
   ],
-  providers: [],
+  providers: [EnrollService, LoggerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

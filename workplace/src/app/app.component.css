@@ -10,6 +10,24 @@
 
 .container{
     text-align: center;
-    padding: 10px 20px;
-    margin: 5px 10px;
+    padding: 20px 30px;
+    margin: 30px auto;
+    background-color: #fafafa;
+    width: 640px;
+}
+
+
+.user-div{
+    display: flex;
+    margin: 5px 0px;
+}
+.user-name{
+    width: 80px;
+    padding: 10px 30px;
+    background-color: #eee;
+}
+.user-status{
+    width: 20px;
+    padding: 10px 40px;
+    background-color: #4127d7;
 }
