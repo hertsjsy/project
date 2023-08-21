@@ -19,6 +19,8 @@ import { AngularComponent } from './components/angular/angular.component';
 import { EnrollService } from './services/enroll.service';
 import { AddUserComponent } from './add-user/add-user.component';
 import { LoggerService } from './services/logger.service';
+import { AllusersComponent } from './components/allusers/allusers.component';
+import { UserdetailsComponent } from './components/userdetails/userdetails.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +35,9 @@ import { LoggerService } from './services/logger.service';
     HooksComponent,
     JavascriptComponent,
     AngularComponent,
-    AddUserComponent
+    AddUserComponent,
+    AllusersComponent,
+    UserdetailsComponent
   ],
   imports: [
     BrowserModule,

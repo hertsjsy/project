@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.wrapper{
+/* .wrapper{
     background-color: #fca709;
 }
 
@@ -30,4 +30,12 @@
     width: 20px;
     padding: 10px 40px;
     background-color: #4127d7;
+} */
+
+.container{
+    width: 720px;
+    margin: 30pc auto;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    display: flex;
 }
